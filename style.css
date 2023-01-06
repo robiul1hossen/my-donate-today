@@ -3,6 +3,10 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  border-radius: 10px;
 }
 .banner-section {
   height: 70vh;
@@ -33,18 +37,25 @@
 .primary-btn {
   font-size: 22px;
   background-color: lightcoral;
+  border: 1px solid lightcoral;
   color: white;
   padding: 15px;
   border: none;
   margin-top: 15px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.primary-btn:hover {
+  color: lightcoral;
+  background-color: white;
+  border: 1px solid lightcoral;
 }
 .section-title {
   text-align: center;
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 35px auto;
 }
 .section-title h2 {
-  padding-top: 80px;
   font-size: 40px;
   font-weight: 800;
 }
@@ -71,6 +82,11 @@
   margin: 40px 0;
   font-weight: 700;
   color: rgb(80, 56, 56);
+  transition: 0.6s;
+}
+.donate-money .dm-child:hover {
+  background-color: rgb(80, 56, 56);
+  color: rgb(251, 246, 246);
 }
 .donate-today small {
   color: rgb(112, 106, 106);
@@ -110,7 +126,7 @@
   justify-content: space-between;
   gap: 50px;
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
   align-items: center;
   margin-top: 110px;
 }
@@ -125,4 +141,34 @@
 }
 .contribute2 img {
   width: 500px;
+}
+.subscribe-part {
+  margin: 50px auto;
+  background-color: #ddd;
+  max-width: 1140px;
+  text-align: center;
+  padding: 45px 0px;
+}
+.subscribe-part input {
+  width: 300px;
+  height: 50px;
+  padding: 0 10px;
+  border: none;
+  margin-right: 20px;
+  border: none;
+}
+.footer-bottom {
+  background-color: #222;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+.footer-div {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer-div h1 {
+  margin: 30px 0;
 }
