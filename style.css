@@ -38,3 +38,91 @@
   border: none;
   margin-top: 15px;
 }
+.section-title {
+  text-align: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.section-title h2 {
+  padding-top: 80px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-title p {
+  font-size: 18px;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 25px;
+  color: #757575;
+}
+.donate-today {
+  margin-bottom: 100px;
+}
+.donate-today .donate-money {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.donate-money .dm-child {
+  background-color: rgb(251, 246, 246);
+  padding: 30px;
+  font-size: 22px;
+  margin: 40px 0;
+  font-weight: 700;
+  color: rgb(80, 56, 56);
+}
+.donate-today small {
+  color: rgb(112, 106, 106);
+  margin-bottom: 15px;
+}
+.donate-today hr {
+  width: 850px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.plan-items {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 20px;
+  margin-top: 40px;
+}
+.plan-item {
+  background-color: #ddd;
+  padding: 45px 20px;
+}
+.plan-item img {
+  max-width: 15%;
+}
+.plan-item h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.plan-item p {
+  font-size: 18px;
+  color: #757575;
+}
+.contribute {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1140px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 110px;
+}
+
+.contribute1 h2 {
+  font-size: 45px;
+}
+.contribute1 p {
+  font-size: 18px;
+  color: #757575;
+  margin: 20px 0;
+}
+.contribute2 img {
+  width: 500px;
+}
